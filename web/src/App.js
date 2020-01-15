@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import api from './services/api';
 import DevItem from './components/devItem';
-import DevForm from './components/devForm';
+import DevForm from './components/DevForm';
 
 import './global.css';
 import './App.css';

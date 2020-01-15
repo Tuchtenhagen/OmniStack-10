@@ -24,7 +24,7 @@ function DevForm({ onSubmit }) {
     }, []);
 
 
-    async function handleSubmit() {
+    async function handleSubmit(e) {
         e.preventDefault();
 
         await onSubmit({
@@ -63,7 +63,7 @@ function DevForm({ onSubmit }) {
         </div>
 
         
-        <button type="submit" onClick={handleAddDev}>Salvar</button>
+        <button type="submit" onClick={handleSubmit}>Salvar</button>
     </form>  
     );
 }
